@@ -1,0 +1,218 @@
+/*css for signIn.html*/
+
+.signInButton {
+    background: #37BD9C;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.mainDiv, .requestDiv {
+    text-align: center;
+}
+
+#password,#username,#email,#capcha{
+    border: 0 none;
+    border-bottom: 2px solid #ccc;
+    background: #eee;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.75);
+    border-radius: 0 !important;
+    margin:30px 0;
+    width: 90%;
+    float: left;
+}
+#password:focus,#username:focus,#email:focus,#area:focus,#capcha:focus{
+    border-bottom: 2px solid #37BD9C;
+}
+
+.mainDiv img, .requestDiv img {
+    padding: 40px 0;
+}
+
+.jumbotron {
+    width: 80% !important;
+    margin-left: 10%;
+    border-radius: 15px !important;
+}
+
+.mainDiv a {
+    font-size: 18px;
+    color: #37BD9C;
+}
+
+/*css for passRequest.html*/
+
+.requestDiv p {
+    font-size: 18px;
+    color: #37BD9C;
+}
+
+#capcha {
+    float: left;
+}
+
+.capcha {
+    float: left;
+    padding: 20px 0 !important;
+    margin-left: 5%;
+}
+
+.signInButtonPass {
+    margin-right: 30px;
+}
+
+#area {
+    resize: none;
+    background: #eee;
+    border: 0 none;
+    border-bottom: 2px solid #ccc;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.75);
+    border-radius: 0 !important;
+    background-image: -webkit-linear-gradient(#eee, #eee 30px, #ccc 30px, #ccc 32px, #eee 32px);
+    background-image: -moz-linear-gradient(#eee, #eee 30px, #ccc 30px, #ccc 32px, #eee 32px);
+    background-image: -ms-linear-gradient(#eee, #eee 30px, #ccc 30px, #ccc 32px, #eee 32px);
+    background-image: -o-linear-gradient(#eee, #eee 30px, #ccc 30px, #ccc 32px, #eee 32px);
+    background-image: linear-gradient(#eee, #eee 30px, #ccc 30px, #ccc 32px, #eee 32px);
+    background-size: 100% 32px;
+    margin: 50px 0 20px 0;
+    width: 90%;
+    float: left;
+    line-height: 27px!important;
+    height: 64px!important;
+    padding: 5px 10px!important;
+
+
+
+    /*resize: none;*/
+    /*background: rgb(238, 238, 238) linear-gradient(rgb(238, 238, 238), rgb(238, 238, 238) 30px, rgb(204, 204, 204) 30px, rgb(204, 204, 204) 32px, rgb(238, 238, 238) 32px) repeat scroll 0% 0% / 100% 32px;*/
+    /*border-width: 0px 0px 2px;*/
+    /*border-style: none none solid;*/
+    /*border-color: -moz-use-text-color -moz-use-text-color #CCC;*/
+    /*-moz-border-top-colors: none;*/
+    /*-moz-border-right-colors: none;*/
+    /*-moz-border-bottom-colors: none;*/
+    /*-moz-border-left-colors: none;*/
+    /*border-image: none;*/
+    /*box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);*/
+    /*border-radius: 0px !important;*/
+    /*margin: 50px 0px 20px;*/
+    /*padding: 0px;*/
+    /*width: 90%;*/
+    /*float: left;*/
+    /*line-height: 2em;*/
+    /*height: 64px;*/
+
+}
+
+/*css for analytics.html*/
+
+table {
+    text-align: left;
+}
+
+table tr td, table tr th {
+    padding: 20px !important;
+    border-top: 0 none !important;
+}
+
+table tr th {
+
+    font-size: 22px;
+}
+
+.regUsersViews {
+
+    color: #5A8C42;
+}
+
+.unregUsersViews {
+    color: #810505;
+
+}
+
+.devices {
+    color: #09916C;
+}
+
+table tr:nth-child(even) {
+    background: #eee;
+
+}
+
+.views {
+    width: 400px;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.views p {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.views span {
+    float: left;
+    margin-top: 5px;
+}
+
+.views div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 5px 0 10px;
+
+}
+
+.regUsers {
+    background: #5A8C42;
+}
+
+.unregUsers {
+    background: #810505;
+
+}
+
+.closeIcon {
+    position: absolute;
+    padding: inherit;
+    cursor: pointer;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+/*css for validation*/
+
+label.valid {
+    width: 22px;
+    height: 60px;
+    background: url(../assets/img/valid.png) bottom right no-repeat;
+    float: left;
+    text-indent: -9999px;
+
+}
+label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+
+
+
